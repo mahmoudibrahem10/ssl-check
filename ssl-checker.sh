@@ -8,7 +8,7 @@ while read line; do
 #Reading each line  
 i=$((i+1))
 notify() {
-  WEBHOOK="https://hooks.slack.com/services/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"
+  WEBHOOK=""
   SLACK_CHANNEL="#test-channel-for-devops"
   SLACK_BOTNAME="SSL Checker"
   
